@@ -6,4 +6,4 @@ SELECT
     state
 FROM
     Person
-    INNER JOIN Address ON Person.personID = Address.personID;
+    Left JOIN Address ON Person.personID = Address.personID;
