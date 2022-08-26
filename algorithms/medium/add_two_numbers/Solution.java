@@ -2,44 +2,8 @@ package algorithms.medium.add_two_numbers;
 
 
 //Definition for singly-linked list.
-class ListNode {
-    int val;
-    ListNode next;
 
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-
-    void print() {
-        ListNode temp = this;
-        System.out.print('[');
-        while (temp.next != null) {
-            System.out.print(temp.val + ", ");
-            temp = temp.next;
-        }
-        System.out.println(temp.val + "]");
-    }
-
-    @Override
-    public String toString() {
-        StringBuilder str = new StringBuilder("[");
-        ListNode temp = this;
-        while (temp.next != null) {
-            str.append(temp.val).append(", ");
-            temp = temp.next;
-        }
-        str.append(temp.val).append("]");
-        return str.toString();
-    }
-}
+import algorithms.classes.ListNode;
 
 class Solution {
 

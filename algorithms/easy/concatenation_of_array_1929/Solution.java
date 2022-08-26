@@ -1,3 +1,5 @@
+package algorithms.easy.concatenation_of_array_1929;
+
 class Solution {
     public int[] getConcatenation(int[] nums) {
         int[] ans = new int[nums.length*2];

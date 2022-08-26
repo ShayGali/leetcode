@@ -1,3 +1,7 @@
+package algorithms.easy.linked_list_cycle_141;
+
+import algorithms.classes.ListNode;
+
 /**
  * Definition for singly-linked list.
  * class ListNode {

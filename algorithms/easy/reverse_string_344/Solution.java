@@ -1,3 +1,5 @@
+package algorithms.easy.reverse_string_344;
+
 class Solution {
     public void reverseString(char[] s) {
         char t;

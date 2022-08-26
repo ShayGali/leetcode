@@ -1,3 +1,10 @@
+package algorithms.medium.linked_list_cycle_II_142;
+
+import algorithms.classes.ListNode;
+
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Definition for singly-linked list.
  * class ListNode {

@@ -1,3 +1,5 @@
+package algorithms.medium.validate_ip_address_486;
+
 class Solution {
     public String validIPAddress(String queryIP) {
         if(isIPv4(queryIP)) return "IPv4";
