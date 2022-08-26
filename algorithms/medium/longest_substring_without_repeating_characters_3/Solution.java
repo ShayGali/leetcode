@@ -1,7 +1,6 @@
-package algorithms.medium._3_longest_substring_without_repeating_characters;
+package algorithms.medium.longest_substring_without_repeating_characters_3;
 
 import java.util.HashSet;
-import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class Solution {
