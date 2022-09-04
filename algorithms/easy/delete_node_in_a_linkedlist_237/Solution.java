@@ -1,3 +1,7 @@
+package algorithms.easy.delete_node_in_a_linkedlist_237;
+
+import algorithms.classes.ListNode;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {

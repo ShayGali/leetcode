@@ -1,5 +1,7 @@
 package algorithms.easy.invert_binary_tree_226;
 
+import algorithms.classes.TreeNode;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
