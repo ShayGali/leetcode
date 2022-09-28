@@ -1,5 +1,5 @@
 
-package algorithms.easy.1304.find_n_unique_integers_sum_up_to_zero_1304
+package algorithms.easy.find_n_unique_integers_sum_up_to_zero_1304;
 
 class Solution {
     public int[] sumZero(int n) {

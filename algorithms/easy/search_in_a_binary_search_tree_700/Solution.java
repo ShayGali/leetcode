@@ -7,8 +7,8 @@ class Solution {
         if(root == null) return null;
         if(root.val == val) return root;
         if(root.val < val)
-            return searchBST(root.right,val);
-        return searchBST(root.left,val);
+            return searchBSTRecursive(root.right,val);
+        return searchBSTRecursive(root.left,val);
     }
   
   public TreeNode searchBSTIterative(TreeNode root, int val) {
