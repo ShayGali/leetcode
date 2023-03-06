@@ -13,8 +13,7 @@ public class Solution {
                     j++;
                 }
                 if (j - i == needle.length()) return i;
-            } else if (needle.length() >= haystack.length() - i)
-                return -1;
+            } else if (needle.length() >= haystack.length() - i) return -1;
         }
         return -1;
     }
