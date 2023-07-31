@@ -20,7 +20,6 @@ public class Solution {
             } else {
                 res[heap.poll()] = String.valueOf(i);
             }
-
         }
 
         return res;
