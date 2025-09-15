@@ -2,6 +2,7 @@ package algorithms.easy.image_smoother_661;
 
 
 class Solution {
+
     public int[][] imageSmoother(int[][] img) {
         int[][] res = new int[img.length][img[0].length];
         for(int i=0;i<img.length;i++){
